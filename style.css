@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-items: space-between;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+}
