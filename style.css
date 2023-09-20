@@ -1,15 +1,58 @@
-.container {
-  display: flex;
-  justify-items: space-between;
-}
-.icon {
-  width: 30px;
-  height: 30px;
+body {
+  font-family: arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.sign-in {
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow:  0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+.task-container {
+  display: flex;
+}
+
+#task-input {
+  flex:1;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
   display: flex;
   align-items: center;
-  border: none;
-  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color:#fff;
+  border:none;
+  padding: 3px 8px;
+  margin-left: 10px;
+  cursor: pointer;
 }
